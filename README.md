@@ -50,7 +50,15 @@ Make sure you have Python and `pip` installed.
     python -c "import nltk; nltk.download('stopwords')"
     ```
 
-4.  **Run the Code on Visual Studio Code**:
+4.  **Run the project:**
+    ```bash
+    # Example if your main file is main.py
+    python main.py
+
+    # Or, if it's a Jupyter notebook (.ipynb file)
+    jupyter notebook
+    # Then open and run the notebook in your browser
+    ```
 
 ---
 
@@ -100,3 +108,6 @@ Movie-Review-Sentiment-Analysis/
 <!-- It's good practice to credit your data sources. -->
 - Dataset provided by KAGGLE: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 - Inspired by various tutorials and courses on NLP.
+
+## 💡 Conclusions
+This project demonstrated that for this specific dataset, Logistic Regression outperformed Naive Bayes for sentiment classification. The key to high performance was thorough text preprocessing and the use of TF-IDF for feature extraction.
