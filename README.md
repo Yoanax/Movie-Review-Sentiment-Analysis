@@ -87,6 +87,9 @@ The Logistic Regression Model achieved the following results:
 <!-- Helps people navigate your code without getting lost. -->
 Movie-Review-Sentiment-Analysis/
 │
+├── images/ # Folder for charts and graphs (e.g., results)
+│ └── confusion_matrix.png
+│
 ├── IMDB Dataset.csv # Raw data
 │
 ├── main.py #The Whole Code
