@@ -93,6 +93,7 @@ The Logistic Regression Model achieved the following results:
 
 ## Project Structure
 <!-- Helps people navigate your code without getting lost. -->
+```text
 Movie-Review-Sentiment-Analysis/
 │
 ├── images/ # Folder for charts and graphs (e.g., results)
@@ -103,6 +104,7 @@ Movie-Review-Sentiment-Analysis/
 ├── main.py #The Whole Code
 │
 └── README.md # This file!
+```
 
 ## Acknowledgments
 <!-- It's good practice to credit your data sources. -->
@@ -111,3 +113,8 @@ Movie-Review-Sentiment-Analysis/
 
 ## Conclusions
 This project demonstrated that for this specific dataset, Logistic Regression outperformed Naive Bayes for sentiment classification. The key to high performance was thorough text preprocessing and the use of TF-IDF for feature extraction.
+
+## Author
+
+**Yoan Petnga Djomo**  
+Computer Science student at McGill University interested in AI and Machine Learning.<br/>[GitHub](https://github.com/Yoanax) · [LinkedIn](https://www.linkedin.com/in/yoan-petnga-djomo-129824241/)
