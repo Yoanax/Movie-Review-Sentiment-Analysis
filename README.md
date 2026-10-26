@@ -1,16 +1,16 @@
 <!-- A clear, descriptive title. This is the first thing people see. -->
-# 🎬 Movie Review Sentiment Analysis
+# Movie Review Sentiment Analysis
 
 <!-- A quick, one-sentence summary. Answers "What is this?" immediately. -->
 A machine learning model that classifies movie reviews as positive or negative, achieving 89% accuracy.
 
 <!-- A slightly longer description. Provides context and the project's goal. -->
-## 📖 Overview
+## Overview
 This project tackles the classic NLP problem of sentiment analysis. It takes raw text from movie reviews, processes it, and uses a Logistic Regression and Naives Bayes model to predict the sentiment (positive/negative). This is a fundamental project for understanding text preprocessing, feature extraction, and model evaluation in NLP.
 
 ---
 
-## ✨ Features
+## Features
 <!-- Bullet points are easy to scan. What can this project do? -->
 - **Text Preprocessing:** Cleans raw review text (removes HTML, punctuation, stopwords, etc.).
 - **Feature Extraction:** Converts text into numerical features using TF-IDF.
@@ -20,7 +20,7 @@ This project tackles the classic NLP problem of sentiment analysis. It takes raw
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 <!-- Shows you can work with industry-standard tools. -->
 - **Language:** Python 3
 - **Libraries:** Pandas, NumPy, Scikit-learn, NLTK, Matplotlib, Seaborn
@@ -28,7 +28,7 @@ This project tackles the classic NLP problem of sentiment analysis. It takes raw
 
 ---
 
-## 📦 Installation & Usage
+## Installation & Usage
 <!-- The most critical section. This is a recipe others can follow to get your code running. -->
 ### Prerequisites
 Make sure you have Python and `pip` installed.
@@ -62,7 +62,7 @@ Make sure you have Python and `pip` installed.
 
 ---
 
-## 📊 Results
+## Results
 <!-- Proves your project works and shows off your achievements. -->
 After training on 40,000 reviews and testing on 10,000 reviews, the Naives Bayes model achieved the following results:
 
@@ -91,7 +91,7 @@ The Logistic Regression Model achieved the following results:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 <!-- Helps people navigate your code without getting lost. -->
 Movie-Review-Sentiment-Analysis/
 │
@@ -104,10 +104,10 @@ Movie-Review-Sentiment-Analysis/
 │
 └── README.md # This file!
 
-## 👏 Acknowledgments
+## Acknowledgments
 <!-- It's good practice to credit your data sources. -->
 - Dataset provided by KAGGLE: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 - Inspired by various tutorials and courses on NLP.
 
-## 💡 Conclusions
+## Conclusions
 This project demonstrated that for this specific dataset, Logistic Regression outperformed Naive Bayes for sentiment classification. The key to high performance was thorough text preprocessing and the use of TF-IDF for feature extraction.
